@@ -24,5 +24,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/api/manifest.json public/api/experiments.json
+          git add public/api/manifest.json public/api/experiments.json public/api/model_results.json public/api/model_predictions.json
           git diff --cached --quiet || (git commit -m "Update NASA milling experimental data" && git push)

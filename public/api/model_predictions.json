@@ -1,0 +1,1803 @@
+{
+  "metadata": {
+    "dataset": "NASA Milling",
+    "generated_utc": "2026-10-28T10:57:29.883767+00:00",
+    "source_sha256": "bdba8d52ec1a1baab24c2be58480e6ac62508c8cc1f8219f47ebde8fc9ebc474",
+    "target": "VB",
+    "target_units": "verify against NASA Readme.pdf",
+    "record_count": 167,
+    "labeled_records_before_quality_filter": 146,
+    "labeled_records_used": 145,
+    "excluded_extreme_sensor_records": [
+      18
+    ],
+    "quality_filter": "Provisional: exclude records with any sensor mean/std/RMS absolute value > 1e6; verify raw signal and NASA documentation",
+    "unlabeled_records": 21,
+    "distinct_cases": 16,
+    "feature_names": [
+      "time",
+      "DOC",
+      "feed",
+      "material",
+      "smcAC_mean",
+      "smcAC_std",
+      "smcAC_rms",
+      "smcDC_mean",
+      "smcDC_std",
+      "smcDC_rms",
+      "vib_table_mean",
+      "vib_table_std",
+      "vib_table_rms",
+      "vib_spindle_mean",
+      "vib_spindle_std",
+      "vib_spindle_rms",
+      "AE_table_mean",
+      "AE_table_std",
+      "AE_table_rms",
+      "AE_spindle_mean",
+      "AE_spindle_std",
+      "AE_spindle_rms"
+    ],
+    "excluded_from_features": [
+      "VB",
+      "case",
+      "run",
+      "experiment_index",
+      "source_file",
+      "source_variable",
+      "*_samples"
+    ],
+    "validation": "5-fold GroupKFold by case; out-of-fold predictions",
+    "random_state": 42,
+    "limitations": [
+      "Model selection uses the same grouped cross-validation results; the selected-model score is not an independent test-set estimate.",
+      "No model hyperparameter tuning was performed.",
+      "Extreme sensor-summary records were provisionally excluded pending raw-signal investigation.",
+      "Time is included as a predictor; predictions require that elapsed machining time is known at inference.",
+      "Sensor summary statistics are computed from each full run, so this is run-level estimation, not early warning from partial runs.",
+      "Prediction outputs may be negative because regressors are not constrained to nonnegative wear."
+    ]
+  },
+  "records": [
+    {
+      "experiment_index": 1,
+      "case": 1,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.22964667530637686,
+        "Ridge Regression": 0.11593416485495192,
+        "Random Forest": 0.0898253042328042
+      }
+    },
+    {
+      "experiment_index": 4,
+      "case": 1,
+      "run": 4,
+      "observed_VB": 0.11,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.20645611077014037,
+        "Ridge Regression": 0.13642177316540788,
+        "Random Forest": 0.21615528018278005
+      }
+    },
+    {
+      "experiment_index": 6,
+      "case": 1,
+      "run": 6,
+      "observed_VB": 0.2,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.3013880327017899,
+        "Ridge Regression": 0.26300659137240223,
+        "Random Forest": 0.31431644179894186
+      }
+    },
+    {
+      "experiment_index": 7,
+      "case": 1,
+      "run": 7,
+      "observed_VB": 0.24,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.36386551636327474,
+        "Ridge Regression": 0.3757849563131511,
+        "Random Forest": 0.36779376022126037
+      }
+    },
+    {
+      "experiment_index": 8,
+      "case": 1,
+      "run": 8,
+      "observed_VB": 0.29,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.39326516470007356,
+        "Ridge Regression": 0.3459597868603327,
+        "Random Forest": 0.3885567821067824
+      }
+    },
+    {
+      "experiment_index": 9,
+      "case": 1,
+      "run": 9,
+      "observed_VB": 0.28,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.4651204110657786,
+        "Ridge Regression": 0.4561415674073147,
+        "Random Forest": 0.45324796416546453
+      }
+    },
+    {
+      "experiment_index": 10,
+      "case": 1,
+      "run": 10,
+      "observed_VB": 0.29,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.44715081702620113,
+        "Ridge Regression": 0.4366774422785211,
+        "Random Forest": 0.48688657888407877
+      }
+    },
+    {
+      "experiment_index": 11,
+      "case": 1,
+      "run": 11,
+      "observed_VB": 0.38,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.373231779918895,
+        "Ridge Regression": 0.4043214142646431,
+        "Random Forest": 0.5095851406926406
+      }
+    },
+    {
+      "experiment_index": 12,
+      "case": 1,
+      "run": 12,
+      "observed_VB": 0.4,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.6615474033172322,
+        "Ridge Regression": 0.5688144112360677,
+        "Random Forest": 0.49911923881673864
+      }
+    },
+    {
+      "experiment_index": 13,
+      "case": 1,
+      "run": 13,
+      "observed_VB": 0.43,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.5571384383011446,
+        "Ridge Regression": 0.5196294285000145,
+        "Random Forest": 0.5017421645021646
+      }
+    },
+    {
+      "experiment_index": 14,
+      "case": 1,
+      "run": 14,
+      "observed_VB": 0.45,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.5910037031021206,
+        "Ridge Regression": 0.5692362518968384,
+        "Random Forest": 0.5180620454545455
+      }
+    },
+    {
+      "experiment_index": 15,
+      "case": 1,
+      "run": 15,
+      "observed_VB": 0.5,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.6524286813169817,
+        "Ridge Regression": 0.5684681718099224,
+        "Random Forest": 0.5269737121212121
+      }
+    },
+    {
+      "experiment_index": 17,
+      "case": 1,
+      "run": 17,
+      "observed_VB": 0.44,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.6795885455781354,
+        "Ridge Regression": 0.6151423105840464,
+        "Random Forest": 0.5608745586820589
+      }
+    },
+    {
+      "experiment_index": 19,
+      "case": 2,
+      "run": 2,
+      "observed_VB": 0.14,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.34838676840600824,
+        "Ridge Regression": -0.14399633980232085,
+        "Random Forest": 0.1399722437747437
+      }
+    },
+    {
+      "experiment_index": 20,
+      "case": 2,
+      "run": 3,
+      "observed_VB": 0.14,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.17351730676768629,
+        "Ridge Regression": -0.1125419443525757,
+        "Random Forest": 0.1479121386021386
+      }
+    },
+    {
+      "experiment_index": 21,
+      "case": 2,
+      "run": 4,
+      "observed_VB": 0.14,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.025825418257388377,
+        "Ridge Regression": 0.012205741613760257,
+        "Random Forest": 0.1799889898989899
+      }
+    },
+    {
+      "experiment_index": 22,
+      "case": 2,
+      "run": 5,
+      "observed_VB": 0.15,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.3043963122679043,
+        "Ridge Regression": 0.04265303528170683,
+        "Random Forest": 0.22300266317016304
+      }
+    },
+    {
+      "experiment_index": 24,
+      "case": 2,
+      "run": 7,
+      "observed_VB": 0.18,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.06643276275951149,
+        "Ridge Regression": 0.08720326706928971,
+        "Random Forest": 0.27364169432419416
+      }
+    },
+    {
+      "experiment_index": 25,
+      "case": 2,
+      "run": 8,
+      "observed_VB": 0.22,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.22660322256212712,
+        "Ridge Regression": 0.1547154817175051,
+        "Random Forest": 0.2780501863876861
+      }
+    },
+    {
+      "experiment_index": 26,
+      "case": 2,
+      "run": 9,
+      "observed_VB": 0.26,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.23087580795036167,
+        "Ridge Regression": 0.2782272529689429,
+        "Random Forest": 0.31893685545935546
+      }
+    },
+    {
+      "experiment_index": 27,
+      "case": 2,
+      "run": 10,
+      "observed_VB": 0.31,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.3219365080500748,
+        "Ridge Regression": 0.3565464941158118,
+        "Random Forest": 0.32948121693121685
+      }
+    },
+    {
+      "experiment_index": 28,
+      "case": 2,
+      "run": 11,
+      "observed_VB": 0.38,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.3958740065411417,
+        "Ridge Regression": 0.4308884256570121,
+        "Random Forest": 0.3729125411625411
+      }
+    },
+    {
+      "experiment_index": 29,
+      "case": 2,
+      "run": 12,
+      "observed_VB": 0.43,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.3788940914683472,
+        "Ridge Regression": 0.47320579970373744,
+        "Random Forest": 0.3801446801346802
+      }
+    },
+    {
+      "experiment_index": 30,
+      "case": 2,
+      "run": 13,
+      "observed_VB": 0.48,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.5362412596414718,
+        "Ridge Regression": 0.5972652713426237,
+        "Random Forest": 0.5692971707921706
+      }
+    },
+    {
+      "experiment_index": 31,
+      "case": 2,
+      "run": 14,
+      "observed_VB": 0.55,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.518886795711546,
+        "Ridge Regression": 0.6133576200031828,
+        "Random Forest": 0.6100064932289929
+      }
+    },
+    {
+      "experiment_index": 32,
+      "case": 3,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.2502782373892879,
+        "Ridge Regression": 0.06945979372006783,
+        "Random Forest": 0.03699493987493987
+      }
+    },
+    {
+      "experiment_index": 33,
+      "case": 3,
+      "run": 2,
+      "observed_VB": 0.13,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.17338527597913345,
+        "Ridge Regression": 0.029690236498390365,
+        "Random Forest": 0.06555115680615681
+      }
+    },
+    {
+      "experiment_index": 34,
+      "case": 3,
+      "run": 3,
+      "observed_VB": 0.13,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.1197690526903692,
+        "Ridge Regression": 0.05501413788515824,
+        "Random Forest": 0.09375453342953338
+      }
+    },
+    {
+      "experiment_index": 35,
+      "case": 3,
+      "run": 5,
+      "observed_VB": 0.17,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.12695495917646382,
+        "Ridge Regression": 0.12244325260180289,
+        "Random Forest": 0.17052326479076474
+      }
+    },
+    {
+      "experiment_index": 36,
+      "case": 3,
+      "run": 6,
+      "observed_VB": 0.19,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.19972837941114846,
+        "Ridge Regression": 0.19085409669063855,
+        "Random Forest": 0.1760463083213083
+      }
+    },
+    {
+      "experiment_index": 37,
+      "case": 3,
+      "run": 7,
+      "observed_VB": 0.2,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.13017713255959795,
+        "Ridge Regression": 0.15370450513930756,
+        "Random Forest": 0.1657723821548821
+      }
+    },
+    {
+      "experiment_index": 38,
+      "case": 3,
+      "run": 8,
+      "observed_VB": 0.23,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.24930852424115002,
+        "Ridge Regression": 0.23950155661052983,
+        "Random Forest": 0.23427292688792686
+      }
+    },
+    {
+      "experiment_index": 39,
+      "case": 3,
+      "run": 9,
+      "observed_VB": 0.23,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.13258149372359834,
+        "Ridge Regression": 0.25048334850235704,
+        "Random Forest": 0.3784727465127464
+      }
+    },
+    {
+      "experiment_index": 40,
+      "case": 3,
+      "run": 10,
+      "observed_VB": 0.26,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.32398443494619644,
+        "Ridge Regression": 0.3559878897525229,
+        "Random Forest": 0.28658431559181563
+      }
+    },
+    {
+      "experiment_index": 41,
+      "case": 3,
+      "run": 11,
+      "observed_VB": 0.28,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.3174226358370892,
+        "Ridge Regression": 0.410231081320602,
+        "Random Forest": 0.5810987818662816
+      }
+    },
+    {
+      "experiment_index": 42,
+      "case": 3,
+      "run": 12,
+      "observed_VB": 0.33,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.3860676098703649,
+        "Ridge Regression": 0.46489944992401877,
+        "Random Forest": 0.6537108766233768
+      }
+    },
+    {
+      "experiment_index": 43,
+      "case": 3,
+      "run": 14,
+      "observed_VB": 0.36,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.26985886046143137,
+        "Ridge Regression": 0.467364167254654,
+        "Random Forest": 0.7066902032227028
+      }
+    },
+    {
+      "experiment_index": 44,
+      "case": 3,
+      "run": 15,
+      "observed_VB": 0.44,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.37422340332630655,
+        "Ridge Regression": 0.5528159048077037,
+        "Random Forest": 0.7320136351611348
+      }
+    },
+    {
+      "experiment_index": 45,
+      "case": 3,
+      "run": 16,
+      "observed_VB": 0.55,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.605536857979897,
+        "Ridge Regression": 0.6408412636038089,
+        "Random Forest": 0.43197491489991496
+      }
+    },
+    {
+      "experiment_index": 46,
+      "case": 4,
+      "run": 1,
+      "observed_VB": 0.08,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": -0.09474694509629317,
+        "Ridge Regression": -0.0019937403774786255,
+        "Random Forest": 0.09085842472342473
+      }
+    },
+    {
+      "experiment_index": 47,
+      "case": 4,
+      "run": 2,
+      "observed_VB": 0.13,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": -0.005028240544166507,
+        "Ridge Regression": 0.06747354402437611,
+        "Random Forest": 0.17344057720057718
+      }
+    },
+    {
+      "experiment_index": 48,
+      "case": 4,
+      "run": 3,
+      "observed_VB": 0.2,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": -0.09379084702140661,
+        "Ridge Regression": 0.1284976541376143,
+        "Random Forest": 0.22705424122174112
+      }
+    },
+    {
+      "experiment_index": 49,
+      "case": 4,
+      "run": 4,
+      "observed_VB": 0.31,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.038234268951107375,
+        "Ridge Regression": 0.16770517994439155,
+        "Random Forest": 0.2558122727272728
+      }
+    },
+    {
+      "experiment_index": 50,
+      "case": 4,
+      "run": 5,
+      "observed_VB": 0.35,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.004797706450317296,
+        "Ridge Regression": 0.18194271988553792,
+        "Random Forest": 0.3735469853294851
+      }
+    },
+    {
+      "experiment_index": 51,
+      "case": 4,
+      "run": 6,
+      "observed_VB": 0.4,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.257651065447162,
+        "Ridge Regression": 0.39350963652035437,
+        "Random Forest": 0.4021063648388649
+      }
+    },
+    {
+      "experiment_index": 52,
+      "case": 4,
+      "run": 7,
+      "observed_VB": 0.49,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.35254875387894047,
+        "Ridge Regression": 0.4199244235552321,
+        "Random Forest": 0.42924789118289114
+      }
+    },
+    {
+      "experiment_index": 53,
+      "case": 9,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": -0.08869514423304903,
+        "Ridge Regression": -0.002490115044874619,
+        "Random Forest": 0.04979959114959118
+      }
+    },
+    {
+      "experiment_index": 54,
+      "case": 9,
+      "run": 2,
+      "observed_VB": 0.1,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": -0.14777303021910565,
+        "Ridge Regression": -0.05941922891795365,
+        "Random Forest": 0.10552791773041773
+      }
+    },
+    {
+      "experiment_index": 55,
+      "case": 9,
+      "run": 3,
+      "observed_VB": 0.14,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.09370686867963146,
+        "Ridge Regression": 0.176997909786577,
+        "Random Forest": 0.30958668951418955
+      }
+    },
+    {
+      "experiment_index": 56,
+      "case": 9,
+      "run": 4,
+      "observed_VB": 0.19,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.2399186602057791,
+        "Ridge Regression": 0.32151303966552536,
+        "Random Forest": 0.3304990620490621
+      }
+    },
+    {
+      "experiment_index": 57,
+      "case": 9,
+      "run": 5,
+      "observed_VB": 0.27,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.24397127207305375,
+        "Ridge Regression": 0.3354385031927539,
+        "Random Forest": 0.41295023448773477
+      }
+    },
+    {
+      "experiment_index": 58,
+      "case": 9,
+      "run": 6,
+      "observed_VB": 0.38,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.3034792015454235,
+        "Ridge Regression": 0.36957207484912724,
+        "Random Forest": 0.44504761183261204
+      }
+    },
+    {
+      "experiment_index": 59,
+      "case": 9,
+      "run": 7,
+      "observed_VB": 0.47,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.4416281993908221,
+        "Ridge Regression": 0.4528315000559425,
+        "Random Forest": 0.4878356036556037
+      }
+    },
+    {
+      "experiment_index": 60,
+      "case": 9,
+      "run": 8,
+      "observed_VB": 0.64,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.5222674981637826,
+        "Ridge Regression": 0.5213820612053807,
+        "Random Forest": 0.49632132756132763
+      }
+    },
+    {
+      "experiment_index": 61,
+      "case": 9,
+      "run": 9,
+      "observed_VB": 0.81,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.5944111896618497,
+        "Ridge Regression": 0.5784563901597161,
+        "Random Forest": 0.5158062650312649
+      }
+    },
+    {
+      "experiment_index": 62,
+      "case": 10,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.04393742249877475,
+        "Ridge Regression": 0.01637283329756456,
+        "Random Forest": 0.015626547619047616
+      }
+    },
+    {
+      "experiment_index": 63,
+      "case": 10,
+      "run": 2,
+      "observed_VB": 0.04,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.04116363776946941,
+        "Ridge Regression": 0.039086667358242344,
+        "Random Forest": 0.12267931642431644
+      }
+    },
+    {
+      "experiment_index": 64,
+      "case": 10,
+      "run": 3,
+      "observed_VB": 0.08,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.1214490506055717,
+        "Ridge Regression": 0.10901379665593627,
+        "Random Forest": 0.23175902042402016
+      }
+    },
+    {
+      "experiment_index": 65,
+      "case": 10,
+      "run": 4,
+      "observed_VB": 0.16,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.21398847471541332,
+        "Ridge Regression": 0.1767698952241131,
+        "Random Forest": 0.2873766979316977
+      }
+    },
+    {
+      "experiment_index": 66,
+      "case": 10,
+      "run": 5,
+      "observed_VB": 0.25,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.2925582828476852,
+        "Ridge Regression": 0.26112385709749636,
+        "Random Forest": 0.33887492960742954
+      }
+    },
+    {
+      "experiment_index": 67,
+      "case": 10,
+      "run": 6,
+      "observed_VB": 0.36,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.33907928813554283,
+        "Ridge Regression": 0.3317589203113376,
+        "Random Forest": 0.38378354497354505
+      }
+    },
+    {
+      "experiment_index": 68,
+      "case": 10,
+      "run": 7,
+      "observed_VB": 0.43,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.4470585687053741,
+        "Ridge Regression": 0.40821273033715755,
+        "Random Forest": 0.4893169035594037
+      }
+    },
+    {
+      "experiment_index": 69,
+      "case": 10,
+      "run": 8,
+      "observed_VB": 0.47,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.5018323491301879,
+        "Ridge Regression": 0.4797172526291561,
+        "Random Forest": 0.6157410479335477
+      }
+    },
+    {
+      "experiment_index": 70,
+      "case": 10,
+      "run": 9,
+      "observed_VB": 0.53,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.6263958967544508,
+        "Ridge Regression": 0.6030471095921773,
+        "Random Forest": 0.6698196722721718
+      }
+    },
+    {
+      "experiment_index": 71,
+      "case": 10,
+      "run": 10,
+      "observed_VB": 0.7,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.40992380486549107,
+        "Ridge Regression": 0.6096354501703761,
+        "Random Forest": 0.5245220770895771
+      }
+    },
+    {
+      "experiment_index": 72,
+      "case": 11,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.1213144966965094,
+        "Ridge Regression": 0.04042362737710331,
+        "Random Forest": 0.013817405002405003
+      }
+    },
+    {
+      "experiment_index": 73,
+      "case": 11,
+      "run": 2,
+      "observed_VB": 0.04,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.10399793338371471,
+        "Ridge Regression": 0.031670601572152346,
+        "Random Forest": 0.10760859187109188
+      }
+    },
+    {
+      "experiment_index": 74,
+      "case": 11,
+      "run": 3,
+      "observed_VB": 0.07,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.16261199995238435,
+        "Ridge Regression": 0.08275595989493523,
+        "Random Forest": 0.13245601851851865
+      }
+    },
+    {
+      "experiment_index": 75,
+      "case": 11,
+      "run": 4,
+      "observed_VB": 0.07,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.21588191002425178,
+        "Ridge Regression": 0.11830072387410762,
+        "Random Forest": 0.1543528992303993
+      }
+    },
+    {
+      "experiment_index": 76,
+      "case": 11,
+      "run": 5,
+      "observed_VB": 0.08,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.22750471188265392,
+        "Ridge Regression": 0.15225016692813764,
+        "Random Forest": 0.14803822270322275
+      }
+    },
+    {
+      "experiment_index": 77,
+      "case": 11,
+      "run": 6,
+      "observed_VB": 0.09,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.2828538534495875,
+        "Ridge Regression": 0.18124387553276253,
+        "Random Forest": 0.16155587782587777
+      }
+    },
+    {
+      "experiment_index": 79,
+      "case": 11,
+      "run": 8,
+      "observed_VB": 0.12,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.3044132278422758,
+        "Ridge Regression": 0.20287827614173,
+        "Random Forest": 0.17468797017797008
+      }
+    },
+    {
+      "experiment_index": 80,
+      "case": 11,
+      "run": 9,
+      "observed_VB": 0.16,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.25809718250366553,
+        "Ridge Regression": 0.20069557734430876,
+        "Random Forest": 0.19089454184704185
+      }
+    },
+    {
+      "experiment_index": 81,
+      "case": 11,
+      "run": 10,
+      "observed_VB": 0.18,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.2898378614530337,
+        "Ridge Regression": 0.23538313729300916,
+        "Random Forest": 0.2621594143819145
+      }
+    },
+    {
+      "experiment_index": 82,
+      "case": 11,
+      "run": 11,
+      "observed_VB": 0.2,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.26892175850163974,
+        "Ridge Regression": 0.24788696960791215,
+        "Random Forest": 0.203103835978836
+      }
+    },
+    {
+      "experiment_index": 83,
+      "case": 11,
+      "run": 12,
+      "observed_VB": 0.23,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.25533913183066564,
+        "Ridge Regression": 0.27994190331910673,
+        "Random Forest": 0.1962241690716691
+      }
+    },
+    {
+      "experiment_index": 84,
+      "case": 11,
+      "run": 13,
+      "observed_VB": 0.26,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.3446812045848437,
+        "Ridge Regression": 0.33354361324849385,
+        "Random Forest": 0.2115989297739297
+      }
+    },
+    {
+      "experiment_index": 86,
+      "case": 11,
+      "run": 15,
+      "observed_VB": 0.31,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.2885284057234156,
+        "Ridge Regression": 0.31553429702016755,
+        "Random Forest": 0.26151610990860985
+      }
+    },
+    {
+      "experiment_index": 87,
+      "case": 11,
+      "run": 16,
+      "observed_VB": 0.37,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.27771075452996563,
+        "Ridge Regression": 0.3409819030586009,
+        "Random Forest": 0.24678629268879276
+      }
+    },
+    {
+      "experiment_index": 89,
+      "case": 11,
+      "run": 18,
+      "observed_VB": 0.42,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.3859396573276956,
+        "Ridge Regression": 0.4383625737172133,
+        "Random Forest": 0.33619822631072627
+      }
+    },
+    {
+      "experiment_index": 90,
+      "case": 11,
+      "run": 19,
+      "observed_VB": 0.47,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.6022067492385381,
+        "Ridge Regression": 0.5908004811321554,
+        "Random Forest": 0.4170420983645984
+      }
+    },
+    {
+      "experiment_index": 91,
+      "case": 11,
+      "run": 20,
+      "observed_VB": 0.57,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.5170465510569845,
+        "Ridge Regression": 0.5626111625997484,
+        "Random Forest": 0.4211208970658972
+      }
+    },
+    {
+      "experiment_index": 92,
+      "case": 11,
+      "run": 21,
+      "observed_VB": 0.65,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.5552138212174684,
+        "Ridge Regression": 0.6155512282264308,
+        "Random Forest": 0.41226772311022314
+      }
+    },
+    {
+      "experiment_index": 93,
+      "case": 11,
+      "run": 22,
+      "observed_VB": 0.68,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.6546615768652172,
+        "Ridge Regression": 0.6682435270263902,
+        "Random Forest": 0.5249295875420877
+      }
+    },
+    {
+      "experiment_index": 94,
+      "case": 11,
+      "run": 23,
+      "observed_VB": 0.76,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.6506262128979012,
+        "Ridge Regression": 0.5709597347942841,
+        "Random Forest": 0.4151221693121694
+      }
+    },
+    {
+      "experiment_index": 96,
+      "case": 12,
+      "run": 2,
+      "observed_VB": 0.05,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.22246867705204398,
+        "Ridge Regression": -0.15774152696450328,
+        "Random Forest": 0.09135377058127059
+      }
+    },
+    {
+      "experiment_index": 97,
+      "case": 12,
+      "run": 3,
+      "observed_VB": 0.08,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.09648396889592625,
+        "Ridge Regression": -0.06145746159841947,
+        "Random Forest": 0.11290870129870124
+      }
+    },
+    {
+      "experiment_index": 99,
+      "case": 12,
+      "run": 5,
+      "observed_VB": 0.12,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.024843900702453292,
+        "Ridge Regression": 0.047973693879677426,
+        "Random Forest": 0.23569054676804674
+      }
+    },
+    {
+      "experiment_index": 100,
+      "case": 12,
+      "run": 6,
+      "observed_VB": 0.17,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.0011330824468960277,
+        "Ridge Regression": 0.06830914806665933,
+        "Random Forest": 0.28387661495911487
+      }
+    },
+    {
+      "experiment_index": 101,
+      "case": 12,
+      "run": 7,
+      "observed_VB": 0.2,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.07040209066286351,
+        "Ridge Regression": 0.15244853863591856,
+        "Random Forest": 0.3260760221260221
+      }
+    },
+    {
+      "experiment_index": 102,
+      "case": 12,
+      "run": 8,
+      "observed_VB": 0.24,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.10846369448137971,
+        "Ridge Regression": 0.2030141500151286,
+        "Random Forest": 0.4189801010101014
+      }
+    },
+    {
+      "experiment_index": 103,
+      "case": 12,
+      "run": 9,
+      "observed_VB": 0.32,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.31878164684894317,
+        "Ridge Regression": 0.35941788122628476,
+        "Random Forest": 0.5271367937617937
+      }
+    },
+    {
+      "experiment_index": 105,
+      "case": 12,
+      "run": 11,
+      "observed_VB": 0.4,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.400409808383356,
+        "Ridge Regression": 0.4292210211654685,
+        "Random Forest": 0.5461411779886778
+      }
+    },
+    {
+      "experiment_index": 106,
+      "case": 12,
+      "run": 12,
+      "observed_VB": 0.45,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.34224279792986284,
+        "Ridge Regression": 0.4100066016172856,
+        "Random Forest": 0.4738361505161506
+      }
+    },
+    {
+      "experiment_index": 107,
+      "case": 12,
+      "run": 13,
+      "observed_VB": 0.49,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.43305954747325504,
+        "Ridge Regression": 0.46756695289979017,
+        "Random Forest": 0.604531202316202
+      }
+    },
+    {
+      "experiment_index": 108,
+      "case": 12,
+      "run": 14,
+      "observed_VB": 0.58,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.5976873904347229,
+        "Ridge Regression": 0.5823272983248979,
+        "Random Forest": 0.6794959127909127
+      }
+    },
+    {
+      "experiment_index": 109,
+      "case": 12,
+      "run": 15,
+      "observed_VB": 0.65,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.6690096970951296,
+        "Ridge Regression": 0.651207022385266,
+        "Random Forest": 0.7706229053354057
+      }
+    },
+    {
+      "experiment_index": 110,
+      "case": 5,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.07815100880537806,
+        "Ridge Regression": 0.2024892044064463,
+        "Random Forest": 0.18709133597883587
+      }
+    },
+    {
+      "experiment_index": 111,
+      "case": 5,
+      "run": 2,
+      "observed_VB": 0.16,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.1875327219746703,
+        "Ridge Regression": 0.2702372488640511,
+        "Random Forest": 0.2976445351870354
+      }
+    },
+    {
+      "experiment_index": 112,
+      "case": 5,
+      "run": 3,
+      "observed_VB": 0.29,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.13227679740770704,
+        "Ridge Regression": 0.23575539127894807,
+        "Random Forest": 0.32005716385466415
+      }
+    },
+    {
+      "experiment_index": 113,
+      "case": 5,
+      "run": 4,
+      "observed_VB": 0.44,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.5055354093957665,
+        "Ridge Regression": 0.4986809135459709,
+        "Random Forest": 0.5946387427387427
+      }
+    },
+    {
+      "experiment_index": 114,
+      "case": 5,
+      "run": 5,
+      "observed_VB": 0.53,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.6053784370225337,
+        "Ridge Regression": 0.578621068229157,
+        "Random Forest": 0.6299346157546155
+      }
+    },
+    {
+      "experiment_index": 115,
+      "case": 5,
+      "run": 6,
+      "observed_VB": 0.74,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.7649700768250476,
+        "Ridge Regression": 0.6655254965715779,
+        "Random Forest": 0.6313857665482663
+      }
+    },
+    {
+      "experiment_index": 116,
+      "case": 6,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": -0.1997323173455121,
+        "Ridge Regression": 0.025653143118928412,
+        "Random Forest": 0.21474765632515627
+      }
+    },
+    {
+      "experiment_index": 117,
+      "case": 7,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": -0.05052045108943087,
+        "Ridge Regression": 0.05488139675729198,
+        "Random Forest": 0.017946213323713316
+      }
+    },
+    {
+      "experiment_index": 118,
+      "case": 7,
+      "run": 2,
+      "observed_VB": 0.09,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.05887674402095805,
+        "Ridge Regression": 0.12159408421873724,
+        "Random Forest": 0.11444040404040401
+      }
+    },
+    {
+      "experiment_index": 119,
+      "case": 7,
+      "run": 3,
+      "observed_VB": 0.13,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.13456781796611123,
+        "Ridge Regression": 0.1684848529169313,
+        "Random Forest": 0.12803649711399723
+      }
+    },
+    {
+      "experiment_index": 120,
+      "case": 7,
+      "run": 4,
+      "observed_VB": 0.22,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.27765502083174476,
+        "Ridge Regression": 0.2766605123947429,
+        "Random Forest": 0.14299599326599335
+      }
+    },
+    {
+      "experiment_index": 121,
+      "case": 7,
+      "run": 5,
+      "observed_VB": 0.24,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.30358398630664396,
+        "Ridge Regression": 0.31713911881172374,
+        "Random Forest": 0.16147279461279454
+      }
+    },
+    {
+      "experiment_index": 122,
+      "case": 7,
+      "run": 6,
+      "observed_VB": 0.34,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.4063091893603702,
+        "Ridge Regression": 0.3860283821563142,
+        "Random Forest": 0.17674210678210664
+      }
+    },
+    {
+      "experiment_index": 123,
+      "case": 7,
+      "run": 7,
+      "observed_VB": 0.46,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.4171447849208727,
+        "Ridge Regression": 0.4352924276167198,
+        "Random Forest": 0.19895216209716196
+      }
+    },
+    {
+      "experiment_index": 125,
+      "case": 8,
+      "run": 1,
+      "observed_VB": 0.0,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.018888919371867985,
+        "Ridge Regression": 0.044174484258366176,
+        "Random Forest": 0.008526058201058201
+      }
+    },
+    {
+      "experiment_index": 126,
+      "case": 8,
+      "run": 2,
+      "observed_VB": 0.18,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.09965769666763591,
+        "Ridge Regression": 0.13893195748574738,
+        "Random Forest": 0.11567658165908173
+      }
+    },
+    {
+      "experiment_index": 127,
+      "case": 8,
+      "run": 3,
+      "observed_VB": 0.3,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": -0.18914521445706634,
+        "Ridge Regression": 0.24612958157351028,
+        "Random Forest": 0.1789361061161061
+      }
+    },
+    {
+      "experiment_index": 129,
+      "case": 8,
+      "run": 5,
+      "observed_VB": 0.44,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.2776731776562175,
+        "Ridge Regression": 0.3319179593730147,
+        "Random Forest": 0.26634212491212483
+      }
+    },
+    {
+      "experiment_index": 130,
+      "case": 8,
+      "run": 6,
+      "observed_VB": 0.62,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.34948275862068967,
+        "Multiple Linear Regression": 0.39481039185557965,
+        "Ridge Regression": 0.4393703623110454,
+        "Random Forest": 0.3484664388389391
+      }
+    },
+    {
+      "experiment_index": 133,
+      "case": 13,
+      "run": 3,
+      "observed_VB": 0.1,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.07116632030183767,
+        "Ridge Regression": 0.1502861787021526,
+        "Random Forest": 0.11364974007474006
+      }
+    },
+    {
+      "experiment_index": 134,
+      "case": 13,
+      "run": 4,
+      "observed_VB": 0.13,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.11375099399652122,
+        "Ridge Regression": 0.18346481593110608,
+        "Random Forest": 0.13069822797572794
+      }
+    },
+    {
+      "experiment_index": 135,
+      "case": 13,
+      "run": 5,
+      "observed_VB": 0.17,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.1873516530253888,
+        "Ridge Regression": 0.2005051908772043,
+        "Random Forest": 0.15077713730713738
+      }
+    },
+    {
+      "experiment_index": 136,
+      "case": 13,
+      "run": 6,
+      "observed_VB": 0.32,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.31989712753670374,
+        "Ridge Regression": 0.3021367213006845,
+        "Random Forest": 0.23363755272505282
+      }
+    },
+    {
+      "experiment_index": 137,
+      "case": 13,
+      "run": 7,
+      "observed_VB": 0.38,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.3230956658917351,
+        "Ridge Regression": 0.34257026567960736,
+        "Random Forest": 0.2811472474747475
+      }
+    },
+    {
+      "experiment_index": 138,
+      "case": 13,
+      "run": 8,
+      "observed_VB": 0.49,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.40438800315530077,
+        "Ridge Regression": 0.3795866079542335,
+        "Random Forest": 0.29899788480038475
+      }
+    },
+    {
+      "experiment_index": 139,
+      "case": 13,
+      "run": 9,
+      "observed_VB": 0.56,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.4355522785074799,
+        "Ridge Regression": 0.3707381068296723,
+        "Random Forest": 0.3249177318977318
+      }
+    },
+    {
+      "experiment_index": 140,
+      "case": 13,
+      "run": 10,
+      "observed_VB": 0.68,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.6153323102269329,
+        "Ridge Regression": 0.48842791384664447,
+        "Random Forest": 0.43041966089466077
+      }
+    },
+    {
+      "experiment_index": 141,
+      "case": 13,
+      "run": 11,
+      "observed_VB": 0.83,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.6709233834654058,
+        "Ridge Regression": 0.5754198232998365,
+        "Random Forest": 0.412470036075036
+      }
+    },
+    {
+      "experiment_index": 142,
+      "case": 13,
+      "run": 12,
+      "observed_VB": 0.92,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.7365975333466632,
+        "Ridge Regression": 0.6108049572576595,
+        "Random Forest": 0.4338391005291003
+      }
+    },
+    {
+      "experiment_index": 143,
+      "case": 13,
+      "run": 13,
+      "observed_VB": 1.07,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.7242772007261471,
+        "Ridge Regression": 0.6242563999062026,
+        "Random Forest": 0.47999380647130635
+      }
+    },
+    {
+      "experiment_index": 144,
+      "case": 13,
+      "run": 14,
+      "observed_VB": 1.3,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.853205752979224,
+        "Ridge Regression": 0.6591221898574611,
+        "Random Forest": 0.5390071956746951
+      }
+    },
+    {
+      "experiment_index": 145,
+      "case": 13,
+      "run": 15,
+      "observed_VB": 1.53,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3064655172413793,
+        "Multiple Linear Regression": 0.8430569341202051,
+        "Ridge Regression": 0.7135957158268124,
+        "Random Forest": 0.614306183168683
+      }
+    },
+    {
+      "experiment_index": 147,
+      "case": 14,
+      "run": 2,
+      "observed_VB": 0.09,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.24174397151083826,
+        "Ridge Regression": 0.23594460273716145,
+        "Random Forest": 0.16250386918636917
+      }
+    },
+    {
+      "experiment_index": 148,
+      "case": 14,
+      "run": 3,
+      "observed_VB": 0.17,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.40736600363110265,
+        "Ridge Regression": 0.375196478472454,
+        "Random Forest": 0.22929411477411468
+      }
+    },
+    {
+      "experiment_index": 149,
+      "case": 14,
+      "run": 4,
+      "observed_VB": 0.24,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.42260013019446496,
+        "Ridge Regression": 0.4183008085813806,
+        "Random Forest": 0.23580853035853033
+      }
+    },
+    {
+      "experiment_index": 151,
+      "case": 14,
+      "run": 6,
+      "observed_VB": 0.35,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.5475294187927582,
+        "Ridge Regression": 0.4932605138513314,
+        "Random Forest": 0.27749423280423274
+      }
+    },
+    {
+      "experiment_index": 152,
+      "case": 14,
+      "run": 8,
+      "observed_VB": 0.6,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.9358156579532529,
+        "Ridge Regression": 0.7134054014510272,
+        "Random Forest": 0.3663502402227403
+      }
+    },
+    {
+      "experiment_index": 153,
+      "case": 14,
+      "run": 9,
+      "observed_VB": 0.81,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.907305856512469,
+        "Ridge Regression": 0.7518375665516398,
+        "Random Forest": 0.42090479298479305
+      }
+    },
+    {
+      "experiment_index": 154,
+      "case": 14,
+      "run": 10,
+      "observed_VB": 1.14,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3478448275862069,
+        "Multiple Linear Regression": 0.86231803325245,
+        "Ridge Regression": 0.7541225506526077,
+        "Random Forest": 0.4797861109261105
+      }
+    },
+    {
+      "experiment_index": 156,
+      "case": 15,
+      "run": 2,
+      "observed_VB": 0.15,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.3454153526608023,
+        "Ridge Regression": 0.32005743010900045,
+        "Random Forest": 0.5876832395382395
+      }
+    },
+    {
+      "experiment_index": 157,
+      "case": 15,
+      "run": 3,
+      "observed_VB": 0.28,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.4660061315275598,
+        "Ridge Regression": 0.4178164965838148,
+        "Random Forest": 0.4329818554593555
+      }
+    },
+    {
+      "experiment_index": 158,
+      "case": 15,
+      "run": 4,
+      "observed_VB": 0.37,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.5399855573600044,
+        "Ridge Regression": 0.5057722337184989,
+        "Random Forest": 0.5172140392015389
+      }
+    },
+    {
+      "experiment_index": 159,
+      "case": 15,
+      "run": 5,
+      "observed_VB": 0.48,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.5599943824464226,
+        "Ridge Regression": 0.5453501371235984,
+        "Random Forest": 1.0135288063788064
+      }
+    },
+    {
+      "experiment_index": 160,
+      "case": 15,
+      "run": 6,
+      "observed_VB": 0.56,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.6128740422512395,
+        "Ridge Regression": 0.599142321412498,
+        "Random Forest": 0.8057483337958335
+      }
+    },
+    {
+      "experiment_index": 161,
+      "case": 15,
+      "run": 7,
+      "observed_VB": 0.7,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.33897435897435896,
+        "Multiple Linear Regression": 0.7406244057764927,
+        "Ridge Regression": 0.7369041758690444,
+        "Random Forest": 0.8597944264069262
+      }
+    },
+    {
+      "experiment_index": 164,
+      "case": 16,
+      "run": 3,
+      "observed_VB": 0.24,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.4044560049329303,
+        "Ridge Regression": 0.4485382772297227,
+        "Random Forest": 0.36850239057239004
+      }
+    },
+    {
+      "experiment_index": 166,
+      "case": 16,
+      "run": 5,
+      "observed_VB": 0.4,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.5017668148357416,
+        "Ridge Regression": 0.5389922271986526,
+        "Random Forest": 0.5080529593554594
+      }
+    },
+    {
+      "experiment_index": 167,
+      "case": 16,
+      "run": 6,
+      "observed_VB": 0.62,
+      "out_of_fold_predictions": {
+        "Mean baseline": 0.3542608695652174,
+        "Multiple Linear Regression": 0.6822864167182315,
+        "Ridge Regression": 0.5714059140269262,
+        "Random Forest": 0.6068861351611352
+      }
+    }
+  ]
+}

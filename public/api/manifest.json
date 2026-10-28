@@ -1,0 +1,45 @@
+{
+  "dataset": "NASA Milling Wear",
+  "source_url": "https://phm-datasets.s3.amazonaws.com/NASA/3.+Milling.zip",
+  "retrieved_utc": "2026-10-28T10:41:20.193212+00:00",
+  "sha256": "bdba8d52ec1a1baab24c2be58480e6ac62508c8cc1f8219f47ebde8fc9ebc474",
+  "archive_bytes": 14731306,
+  "status": "parsed_records",
+  "archive_files": [
+    {
+      "archive": "NASA archive",
+      "name": "3. Milling/",
+      "size": 0,
+      "depth": 0
+    },
+    {
+      "archive": "NASA archive",
+      "name": "3. Milling/mill.zip",
+      "size": 15140674,
+      "depth": 0
+    },
+    {
+      "archive": "NASA archive/3. Milling/mill.zip",
+      "name": "Readme.pdf",
+      "size": 179630,
+      "depth": 1
+    },
+    {
+      "archive": "NASA archive/3. Milling/mill.zip",
+      "name": "mill.mat",
+      "size": 72575144,
+      "depth": 1
+    }
+  ],
+  "mat_inventory": [
+    {
+      "file": "NASA archive/3. Milling/mill.zip/mill.mat",
+      "variables": [
+        "mill"
+      ]
+    }
+  ],
+  "record_count": 167,
+  "warnings": [],
+  "research_notice": "Historical NASA milling experiments. No predictive model has been validated. Parsed records require verification against original dataset documentation."
+}

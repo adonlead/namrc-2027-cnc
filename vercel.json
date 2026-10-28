@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {"key": "Access-Control-Allow-Origin", "value": "https://www.ariesbank.com"},
+        {"key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS"},
+        {"key": "Cache-Control", "value": "public, max-age=300, s-maxage=3600"}
+      ]
+    }
+  ]
+}

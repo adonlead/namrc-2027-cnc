@@ -18,6 +18,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Retrieve and process NASA archive
         run: python scripts/process_nasa.py
+      - name: Train and validate wear prediction models
+        run: python scripts/train_model.py
       - name: Commit updated JSON if changed
         run: |
           git config user.name "github-actions[bot]"

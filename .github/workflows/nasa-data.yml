@@ -20,9 +20,11 @@ jobs:
         run: python scripts/process_nasa.py
       - name: Train and validate wear prediction models
         run: python scripts/train_model.py
+      - name: Export fitted Ridge model
+        run: python scripts/export_ridge_model.py  
       - name: Commit updated JSON if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/api/manifest.json public/api/experiments.json public/api/model_results.json public/api/model_predictions.json
+          git add public/api/manifest.json public/api/experiments.json public/api/model_results.json public/api/model_predictions.json public/api/ridge_model.json
           git diff --cached --quiet || (git commit -m "Update NASA milling experimental data" && git push)

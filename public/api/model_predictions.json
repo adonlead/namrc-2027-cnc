@@ -1,7 +1,7 @@
 {
   "metadata": {
     "dataset": "NASA Milling",
-    "generated_utc": "2026-10-29T09:14:45.287149+00:00",
+    "generated_utc": "2026-11-01T14:16:20.416410+00:00",
     "source_sha256": "bdba8d52ec1a1baab24c2be58480e6ac62508c8cc1f8219f47ebde8fc9ebc474",
     "target": "VB",
     "target_units": "verify against NASA Readme.pdf",
@@ -66,8 +66,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.22964667530637686,
-        "Ridge Regression": 0.11593416485495192,
+        "Multiple Linear Regression": 0.22964667530641608,
+        "Ridge Regression": 0.1159341648549522,
         "Random Forest": 0.0898253042328042
       }
     },
@@ -78,8 +78,8 @@
       "observed_VB": 0.11,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.20645611077014037,
-        "Ridge Regression": 0.13642177316540788,
+        "Multiple Linear Regression": 0.20645611077017176,
+        "Ridge Regression": 0.13642177316540807,
         "Random Forest": 0.21615528018278005
       }
     },
@@ -90,8 +90,8 @@
       "observed_VB": 0.2,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.3013880327017899,
-        "Ridge Regression": 0.26300659137240223,
+        "Multiple Linear Regression": 0.30138803270180736,
+        "Ridge Regression": 0.26300659137240245,
         "Random Forest": 0.31431644179894186
       }
     },
@@ -102,8 +102,8 @@
       "observed_VB": 0.24,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.36386551636327474,
-        "Ridge Regression": 0.3757849563131511,
+        "Multiple Linear Regression": 0.36386551636329484,
+        "Ridge Regression": 0.3757849563131512,
         "Random Forest": 0.36779376022126037
       }
     },
@@ -114,8 +114,8 @@
       "observed_VB": 0.29,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.39326516470007356,
-        "Ridge Regression": 0.3459597868603327,
+        "Multiple Linear Regression": 0.3932651647000851,
+        "Ridge Regression": 0.3459597868603325,
         "Random Forest": 0.3885567821067824
       }
     },
@@ -126,8 +126,8 @@
       "observed_VB": 0.28,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.4651204110657786,
-        "Ridge Regression": 0.4561415674073147,
+        "Multiple Linear Regression": 0.46512041106580393,
+        "Ridge Regression": 0.4561415674073145,
         "Random Forest": 0.45324796416546453
       }
     },
@@ -138,8 +138,8 @@
       "observed_VB": 0.29,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.44715081702620113,
-        "Ridge Regression": 0.4366774422785211,
+        "Multiple Linear Regression": 0.4471508170262041,
+        "Ridge Regression": 0.436677442278521,
         "Random Forest": 0.48688657888407877
       }
     },
@@ -150,8 +150,8 @@
       "observed_VB": 0.38,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.373231779918895,
-        "Ridge Regression": 0.4043214142646431,
+        "Multiple Linear Regression": 0.37323177991890166,
+        "Ridge Regression": 0.40432141426464274,
         "Random Forest": 0.5095851406926406
       }
     },
@@ -162,8 +162,8 @@
       "observed_VB": 0.4,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.6615474033172322,
-        "Ridge Regression": 0.5688144112360677,
+        "Multiple Linear Regression": 0.6615474033172329,
+        "Ridge Regression": 0.5688144112360676,
         "Random Forest": 0.49911923881673864
       }
     },
@@ -174,8 +174,8 @@
       "observed_VB": 0.43,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.5571384383011446,
-        "Ridge Regression": 0.5196294285000145,
+        "Multiple Linear Regression": 0.5571384383011551,
+        "Ridge Regression": 0.5196294285000144,
         "Random Forest": 0.5017421645021646
       }
     },
@@ -186,8 +186,8 @@
       "observed_VB": 0.45,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.5910037031021206,
-        "Ridge Regression": 0.5692362518968384,
+        "Multiple Linear Regression": 0.591003703102136,
+        "Ridge Regression": 0.5692362518968381,
         "Random Forest": 0.5180620454545455
       }
     },
@@ -198,8 +198,8 @@
       "observed_VB": 0.5,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.6524286813169817,
-        "Ridge Regression": 0.5684681718099224,
+        "Multiple Linear Regression": 0.652428681316997,
+        "Ridge Regression": 0.568468171809922,
         "Random Forest": 0.5269737121212121
       }
     },
@@ -210,8 +210,8 @@
       "observed_VB": 0.44,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.6795885455781354,
-        "Ridge Regression": 0.6151423105840464,
+        "Multiple Linear Regression": 0.679588545578149,
+        "Ridge Regression": 0.6151423105840461,
         "Random Forest": 0.5608745586820589
       }
     },
@@ -222,8 +222,8 @@
       "observed_VB": 0.14,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.34838676840600824,
-        "Ridge Regression": -0.14399633980232085,
+        "Multiple Linear Regression": -0.3483867684060037,
+        "Ridge Regression": -0.14399633980232057,
         "Random Forest": 0.1399722437747437
       }
     },
@@ -234,8 +234,8 @@
       "observed_VB": 0.14,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.17351730676768629,
-        "Ridge Regression": -0.1125419443525757,
+        "Multiple Linear Regression": -0.17351730676769095,
+        "Ridge Regression": -0.11254194435257564,
         "Random Forest": 0.1479121386021386
       }
     },
@@ -246,8 +246,8 @@
       "observed_VB": 0.14,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.025825418257388377,
-        "Ridge Regression": 0.012205741613760257,
+        "Multiple Linear Regression": -0.02582541825738599,
+        "Ridge Regression": 0.012205741613760146,
         "Random Forest": 0.1799889898989899
       }
     },
@@ -258,8 +258,8 @@
       "observed_VB": 0.15,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.3043963122679043,
-        "Ridge Regression": 0.04265303528170683,
+        "Multiple Linear Regression": -0.30439631226790864,
+        "Ridge Regression": 0.042653035281706775,
         "Random Forest": 0.22300266317016304
       }
     },
@@ -270,8 +270,8 @@
       "observed_VB": 0.18,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.06643276275951149,
-        "Ridge Regression": 0.08720326706928971,
+        "Multiple Linear Regression": 0.06643276275951304,
+        "Ridge Regression": 0.0872032670692896,
         "Random Forest": 0.27364169432419416
       }
     },
@@ -282,8 +282,8 @@
       "observed_VB": 0.22,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.22660322256212712,
-        "Ridge Regression": 0.1547154817175051,
+        "Multiple Linear Regression": 0.22660322256212512,
+        "Ridge Regression": 0.15471548171750504,
         "Random Forest": 0.2780501863876861
       }
     },
@@ -294,8 +294,8 @@
       "observed_VB": 0.26,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.23087580795036167,
-        "Ridge Regression": 0.2782272529689429,
+        "Multiple Linear Regression": 0.23087580795035945,
+        "Ridge Regression": 0.2782272529689428,
         "Random Forest": 0.31893685545935546
       }
     },
@@ -306,8 +306,8 @@
       "observed_VB": 0.31,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.3219365080500748,
-        "Ridge Regression": 0.3565464941158118,
+        "Multiple Linear Regression": 0.32193650805006657,
+        "Ridge Regression": 0.35654649411581146,
         "Random Forest": 0.32948121693121685
       }
     },
@@ -318,8 +318,8 @@
       "observed_VB": 0.38,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.3958740065411417,
-        "Ridge Regression": 0.4308884256570121,
+        "Multiple Linear Regression": 0.3958740065411308,
+        "Ridge Regression": 0.43088842565701196,
         "Random Forest": 0.3729125411625411
       }
     },
@@ -330,8 +330,8 @@
       "observed_VB": 0.43,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.3788940914683472,
-        "Ridge Regression": 0.47320579970373744,
+        "Multiple Linear Regression": 0.37889409146834296,
+        "Ridge Regression": 0.47320579970373755,
         "Random Forest": 0.3801446801346802
       }
     },
@@ -342,7 +342,7 @@
       "observed_VB": 0.48,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.5362412596414718,
+        "Multiple Linear Regression": 0.5362412596414634,
         "Ridge Regression": 0.5972652713426237,
         "Random Forest": 0.5692971707921706
       }
@@ -354,8 +354,8 @@
       "observed_VB": 0.55,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.518886795711546,
-        "Ridge Regression": 0.6133576200031828,
+        "Multiple Linear Regression": 0.518886795711536,
+        "Ridge Regression": 0.6133576200031827,
         "Random Forest": 0.6100064932289929
       }
     },
@@ -366,8 +366,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.2502782373892879,
-        "Ridge Regression": 0.06945979372006783,
+        "Multiple Linear Regression": 0.25027823738929433,
+        "Ridge Regression": 0.06945979372006811,
         "Random Forest": 0.03699493987493987
       }
     },
@@ -378,8 +378,8 @@
       "observed_VB": 0.13,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.17338527597913345,
-        "Ridge Regression": 0.029690236498390365,
+        "Multiple Linear Regression": 0.17338527597913567,
+        "Ridge Regression": 0.029690236498390532,
         "Random Forest": 0.06555115680615681
       }
     },
@@ -390,8 +390,8 @@
       "observed_VB": 0.13,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.1197690526903692,
-        "Ridge Regression": 0.05501413788515824,
+        "Multiple Linear Regression": 0.11976905269037053,
+        "Ridge Regression": 0.055014137885158354,
         "Random Forest": 0.09375453342953338
       }
     },
@@ -402,8 +402,8 @@
       "observed_VB": 0.17,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.12695495917646382,
-        "Ridge Regression": 0.12244325260180289,
+        "Multiple Linear Regression": 0.12695495917646127,
+        "Ridge Regression": 0.12244325260180294,
         "Random Forest": 0.17052326479076474
       }
     },
@@ -414,8 +414,8 @@
       "observed_VB": 0.19,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.19972837941114846,
-        "Ridge Regression": 0.19085409669063855,
+        "Multiple Linear Regression": 0.19972837941114863,
+        "Ridge Regression": 0.19085409669063866,
         "Random Forest": 0.1760463083213083
       }
     },
@@ -426,8 +426,8 @@
       "observed_VB": 0.2,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.13017713255959795,
-        "Ridge Regression": 0.15370450513930756,
+        "Multiple Linear Regression": 0.1301771325595964,
+        "Ridge Regression": 0.1537045051393076,
         "Random Forest": 0.1657723821548821
       }
     },
@@ -438,8 +438,8 @@
       "observed_VB": 0.23,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.24930852424115002,
-        "Ridge Regression": 0.23950155661052983,
+        "Multiple Linear Regression": 0.2493085242411478,
+        "Ridge Regression": 0.23950155661053005,
         "Random Forest": 0.23427292688792686
       }
     },
@@ -450,8 +450,8 @@
       "observed_VB": 0.23,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.13258149372359834,
-        "Ridge Regression": 0.25048334850235704,
+        "Multiple Linear Regression": 0.13258149372359812,
+        "Ridge Regression": 0.250483348502357,
         "Random Forest": 0.3784727465127464
       }
     },
@@ -462,8 +462,8 @@
       "observed_VB": 0.26,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.32398443494619644,
-        "Ridge Regression": 0.3559878897525229,
+        "Multiple Linear Regression": 0.3239844349461921,
+        "Ridge Regression": 0.355987889752523,
         "Random Forest": 0.28658431559181563
       }
     },
@@ -474,8 +474,8 @@
       "observed_VB": 0.28,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.3174226358370892,
-        "Ridge Regression": 0.410231081320602,
+        "Multiple Linear Regression": 0.31742263583708663,
+        "Ridge Regression": 0.4102310813206021,
         "Random Forest": 0.5810987818662816
       }
     },
@@ -486,7 +486,7 @@
       "observed_VB": 0.33,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.3860676098703649,
+        "Multiple Linear Regression": 0.3860676098703585,
         "Ridge Regression": 0.46489944992401877,
         "Random Forest": 0.6537108766233768
       }
@@ -498,8 +498,8 @@
       "observed_VB": 0.36,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.26985886046143137,
-        "Ridge Regression": 0.467364167254654,
+        "Multiple Linear Regression": 0.26985886046142515,
+        "Ridge Regression": 0.4673641672546541,
         "Random Forest": 0.7066902032227028
       }
     },
@@ -510,8 +510,8 @@
       "observed_VB": 0.44,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.37422340332630655,
-        "Ridge Regression": 0.5528159048077037,
+        "Multiple Linear Regression": 0.3742234033263052,
+        "Ridge Regression": 0.5528159048077036,
         "Random Forest": 0.7320136351611348
       }
     },
@@ -522,8 +522,8 @@
       "observed_VB": 0.55,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.605536857979897,
-        "Ridge Regression": 0.6408412636038089,
+        "Multiple Linear Regression": 0.6055368579798919,
+        "Ridge Regression": 0.6408412636038088,
         "Random Forest": 0.43197491489991496
       }
     },
@@ -534,7 +534,7 @@
       "observed_VB": 0.08,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": -0.09474694509629317,
+        "Multiple Linear Regression": -0.09474694509629045,
         "Ridge Regression": -0.0019937403774786255,
         "Random Forest": 0.09085842472342473
       }
@@ -546,8 +546,8 @@
       "observed_VB": 0.13,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": -0.005028240544166507,
-        "Ridge Regression": 0.06747354402437611,
+        "Multiple Linear Regression": -0.005028240544169449,
+        "Ridge Regression": 0.06747354402437622,
         "Random Forest": 0.17344057720057718
       }
     },
@@ -558,7 +558,7 @@
       "observed_VB": 0.2,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": -0.09379084702140661,
+        "Multiple Linear Regression": -0.09379084702140728,
         "Ridge Regression": 0.1284976541376143,
         "Random Forest": 0.22705424122174112
       }
@@ -570,8 +570,8 @@
       "observed_VB": 0.31,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.038234268951107375,
-        "Ridge Regression": 0.16770517994439155,
+        "Multiple Linear Regression": 0.038234268951102546,
+        "Ridge Regression": 0.1677051799443916,
         "Random Forest": 0.2558122727272728
       }
     },
@@ -582,8 +582,8 @@
       "observed_VB": 0.35,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.004797706450317296,
-        "Ridge Regression": 0.18194271988553792,
+        "Multiple Linear Regression": 0.004797706450311523,
+        "Ridge Regression": 0.18194271988553803,
         "Random Forest": 0.3735469853294851
       }
     },
@@ -594,8 +594,8 @@
       "observed_VB": 0.4,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.257651065447162,
-        "Ridge Regression": 0.39350963652035437,
+        "Multiple Linear Regression": 0.2576510654471593,
+        "Ridge Regression": 0.3935096365203541,
         "Random Forest": 0.4021063648388649
       }
     },
@@ -606,7 +606,7 @@
       "observed_VB": 0.49,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.35254875387894047,
+        "Multiple Linear Regression": 0.35254875387893825,
         "Ridge Regression": 0.4199244235552321,
         "Random Forest": 0.42924789118289114
       }
@@ -618,8 +618,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": -0.08869514423304903,
-        "Ridge Regression": -0.002490115044874619,
+        "Multiple Linear Regression": -0.08869514423303687,
+        "Ridge Regression": -0.0024901150448746745,
         "Random Forest": 0.04979959114959118
       }
     },
@@ -630,7 +630,7 @@
       "observed_VB": 0.1,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": -0.14777303021910565,
+        "Multiple Linear Regression": -0.147773030219098,
         "Ridge Regression": -0.05941922891795365,
         "Random Forest": 0.10552791773041773
       }
@@ -642,8 +642,8 @@
       "observed_VB": 0.14,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.09370686867963146,
-        "Ridge Regression": 0.176997909786577,
+        "Multiple Linear Regression": 0.09370686867964073,
+        "Ridge Regression": 0.17699790978657706,
         "Random Forest": 0.30958668951418955
       }
     },
@@ -654,8 +654,8 @@
       "observed_VB": 0.19,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.2399186602057791,
-        "Ridge Regression": 0.32151303966552536,
+        "Multiple Linear Regression": 0.2399186602057849,
+        "Ridge Regression": 0.3215130396655253,
         "Random Forest": 0.3304990620490621
       }
     },
@@ -666,8 +666,8 @@
       "observed_VB": 0.27,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.24397127207305375,
-        "Ridge Regression": 0.3354385031927539,
+        "Multiple Linear Regression": 0.24397127207305508,
+        "Ridge Regression": 0.3354385031927538,
         "Random Forest": 0.41295023448773477
       }
     },
@@ -678,8 +678,8 @@
       "observed_VB": 0.38,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.3034792015454235,
-        "Ridge Regression": 0.36957207484912724,
+        "Multiple Linear Regression": 0.30347920154542757,
+        "Ridge Regression": 0.3695720748491271,
         "Random Forest": 0.44504761183261204
       }
     },
@@ -690,8 +690,8 @@
       "observed_VB": 0.47,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.4416281993908221,
-        "Ridge Regression": 0.4528315000559425,
+        "Multiple Linear Regression": 0.44162819939082676,
+        "Ridge Regression": 0.45283150005594236,
         "Random Forest": 0.4878356036556037
       }
     },
@@ -702,8 +702,8 @@
       "observed_VB": 0.64,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.5222674981637826,
-        "Ridge Regression": 0.5213820612053807,
+        "Multiple Linear Regression": 0.5222674981637758,
+        "Ridge Regression": 0.5213820612053806,
         "Random Forest": 0.49632132756132763
       }
     },
@@ -714,8 +714,8 @@
       "observed_VB": 0.81,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.5944111896618497,
-        "Ridge Regression": 0.5784563901597161,
+        "Multiple Linear Regression": 0.5944111896618496,
+        "Ridge Regression": 0.5784563901597157,
         "Random Forest": 0.5158062650312649
       }
     },
@@ -726,8 +726,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.04393742249877475,
-        "Ridge Regression": 0.01637283329756456,
+        "Multiple Linear Regression": 0.04393742249877575,
+        "Ridge Regression": 0.016372833297564504,
         "Random Forest": 0.015626547619047616
       }
     },
@@ -738,8 +738,8 @@
       "observed_VB": 0.04,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.04116363776946941,
-        "Ridge Regression": 0.039086667358242344,
+        "Multiple Linear Regression": 0.0411636377694693,
+        "Ridge Regression": 0.0390866673582424,
         "Random Forest": 0.12267931642431644
       }
     },
@@ -750,8 +750,8 @@
       "observed_VB": 0.08,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.1214490506055717,
-        "Ridge Regression": 0.10901379665593627,
+        "Multiple Linear Regression": 0.12144905060557154,
+        "Ridge Regression": 0.10901379665593636,
         "Random Forest": 0.23175902042402016
       }
     },
@@ -762,8 +762,8 @@
       "observed_VB": 0.16,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.21398847471541332,
-        "Ridge Regression": 0.1767698952241131,
+        "Multiple Linear Regression": 0.21398847471541224,
+        "Ridge Regression": 0.17676989522411313,
         "Random Forest": 0.2873766979316977
       }
     },
@@ -774,8 +774,8 @@
       "observed_VB": 0.25,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.2925582828476852,
-        "Ridge Regression": 0.26112385709749636,
+        "Multiple Linear Regression": 0.29255828284768415,
+        "Ridge Regression": 0.2611238570974964,
         "Random Forest": 0.33887492960742954
       }
     },
@@ -786,7 +786,7 @@
       "observed_VB": 0.36,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.33907928813554283,
+        "Multiple Linear Regression": 0.3390792881355409,
         "Ridge Regression": 0.3317589203113376,
         "Random Forest": 0.38378354497354505
       }
@@ -798,7 +798,7 @@
       "observed_VB": 0.43,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.4470585687053741,
+        "Multiple Linear Regression": 0.44705856870537225,
         "Ridge Regression": 0.40821273033715755,
         "Random Forest": 0.4893169035594037
       }
@@ -810,8 +810,8 @@
       "observed_VB": 0.47,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.5018323491301879,
-        "Ridge Regression": 0.4797172526291561,
+        "Multiple Linear Regression": 0.501832349130186,
+        "Ridge Regression": 0.4797172526291562,
         "Random Forest": 0.6157410479335477
       }
     },
@@ -822,8 +822,8 @@
       "observed_VB": 0.53,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.6263958967544508,
-        "Ridge Regression": 0.6030471095921773,
+        "Multiple Linear Regression": 0.6263958967544475,
+        "Ridge Regression": 0.6030471095921777,
         "Random Forest": 0.6698196722721718
       }
     },
@@ -834,7 +834,7 @@
       "observed_VB": 0.7,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.40992380486549107,
+        "Multiple Linear Regression": 0.40992380486549196,
         "Ridge Regression": 0.6096354501703761,
         "Random Forest": 0.5245220770895771
       }
@@ -846,8 +846,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.1213144966965094,
-        "Ridge Regression": 0.04042362737710331,
+        "Multiple Linear Regression": 0.12131449669651612,
+        "Ridge Regression": 0.04042362737710359,
         "Random Forest": 0.013817405002405003
       }
     },
@@ -858,8 +858,8 @@
       "observed_VB": 0.04,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.10399793338371471,
-        "Ridge Regression": 0.031670601572152346,
+        "Multiple Linear Regression": 0.10399793338372049,
+        "Ridge Regression": 0.03167060157215268,
         "Random Forest": 0.10760859187109188
       }
     },
@@ -870,8 +870,8 @@
       "observed_VB": 0.07,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.16261199995238435,
-        "Ridge Regression": 0.08275595989493523,
+        "Multiple Linear Regression": 0.1626119999523873,
+        "Ridge Regression": 0.08275595989493545,
         "Random Forest": 0.13245601851851865
       }
     },
@@ -882,8 +882,8 @@
       "observed_VB": 0.07,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.21588191002425178,
-        "Ridge Regression": 0.11830072387410762,
+        "Multiple Linear Regression": 0.21588191002425905,
+        "Ridge Regression": 0.11830072387410795,
         "Random Forest": 0.1543528992303993
       }
     },
@@ -894,8 +894,8 @@
       "observed_VB": 0.08,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.22750471188265392,
-        "Ridge Regression": 0.15225016692813764,
+        "Multiple Linear Regression": 0.22750471188265753,
+        "Ridge Regression": 0.152250166928138,
         "Random Forest": 0.14803822270322275
       }
     },
@@ -906,8 +906,8 @@
       "observed_VB": 0.09,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.2828538534495875,
-        "Ridge Regression": 0.18124387553276253,
+        "Multiple Linear Regression": 0.28285385344959213,
+        "Ridge Regression": 0.18124387553276283,
         "Random Forest": 0.16155587782587777
       }
     },
@@ -918,8 +918,8 @@
       "observed_VB": 0.12,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.3044132278422758,
-        "Ridge Regression": 0.20287827614173,
+        "Multiple Linear Regression": 0.3044132278422811,
+        "Ridge Regression": 0.2028782761417303,
         "Random Forest": 0.17468797017797008
       }
     },
@@ -930,8 +930,8 @@
       "observed_VB": 0.16,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.25809718250366553,
-        "Ridge Regression": 0.20069557734430876,
+        "Multiple Linear Regression": 0.25809718250366254,
+        "Ridge Regression": 0.20069557734430887,
         "Random Forest": 0.19089454184704185
       }
     },
@@ -942,8 +942,8 @@
       "observed_VB": 0.18,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.2898378614530337,
-        "Ridge Regression": 0.23538313729300916,
+        "Multiple Linear Regression": 0.28983786145303747,
+        "Ridge Regression": 0.23538313729300933,
         "Random Forest": 0.2621594143819145
       }
     },
@@ -954,8 +954,8 @@
       "observed_VB": 0.2,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.26892175850163974,
-        "Ridge Regression": 0.24788696960791215,
+        "Multiple Linear Regression": 0.26892175850164013,
+        "Ridge Regression": 0.24788696960791226,
         "Random Forest": 0.203103835978836
       }
     },
@@ -966,8 +966,8 @@
       "observed_VB": 0.23,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.25533913183066564,
-        "Ridge Regression": 0.27994190331910673,
+        "Multiple Linear Regression": 0.2553391318306608,
+        "Ridge Regression": 0.2799419033191068,
         "Random Forest": 0.1962241690716691
       }
     },
@@ -978,8 +978,8 @@
       "observed_VB": 0.26,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.3446812045848437,
-        "Ridge Regression": 0.33354361324849385,
+        "Multiple Linear Regression": 0.34468120458484053,
+        "Ridge Regression": 0.3335436132484939,
         "Random Forest": 0.2115989297739297
       }
     },
@@ -990,7 +990,7 @@
       "observed_VB": 0.31,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.2885284057234156,
+        "Multiple Linear Regression": 0.2885284057234125,
         "Ridge Regression": 0.31553429702016755,
         "Random Forest": 0.26151610990860985
       }
@@ -1002,8 +1002,8 @@
       "observed_VB": 0.37,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.27771075452996563,
-        "Ridge Regression": 0.3409819030586009,
+        "Multiple Linear Regression": 0.2777107545299622,
+        "Ridge Regression": 0.34098190305860077,
         "Random Forest": 0.24678629268879276
       }
     },
@@ -1014,8 +1014,8 @@
       "observed_VB": 0.42,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.3859396573276956,
-        "Ridge Regression": 0.4383625737172133,
+        "Multiple Linear Regression": 0.3859396573276877,
+        "Ridge Regression": 0.4383625737172132,
         "Random Forest": 0.33619822631072627
       }
     },
@@ -1026,8 +1026,8 @@
       "observed_VB": 0.47,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.6022067492385381,
-        "Ridge Regression": 0.5908004811321554,
+        "Multiple Linear Regression": 0.6022067492385352,
+        "Ridge Regression": 0.5908004811321553,
         "Random Forest": 0.4170420983645984
       }
     },
@@ -1038,8 +1038,8 @@
       "observed_VB": 0.57,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.5170465510569845,
-        "Ridge Regression": 0.5626111625997484,
+        "Multiple Linear Regression": 0.5170465510569786,
+        "Ridge Regression": 0.5626111625997481,
         "Random Forest": 0.4211208970658972
       }
     },
@@ -1050,8 +1050,8 @@
       "observed_VB": 0.65,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.5552138212174684,
-        "Ridge Regression": 0.6155512282264308,
+        "Multiple Linear Regression": 0.5552138212174601,
+        "Ridge Regression": 0.6155512282264306,
         "Random Forest": 0.41226772311022314
       }
     },
@@ -1062,8 +1062,8 @@
       "observed_VB": 0.68,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.6546615768652172,
-        "Ridge Regression": 0.6682435270263902,
+        "Multiple Linear Regression": 0.6546615768652115,
+        "Ridge Regression": 0.6682435270263899,
         "Random Forest": 0.5249295875420877
       }
     },
@@ -1074,8 +1074,8 @@
       "observed_VB": 0.76,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.6506262128979012,
-        "Ridge Regression": 0.5709597347942841,
+        "Multiple Linear Regression": 0.6506262128978972,
+        "Ridge Regression": 0.5709597347942839,
         "Random Forest": 0.4151221693121694
       }
     },
@@ -1086,8 +1086,8 @@
       "observed_VB": 0.05,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.22246867705204398,
-        "Ridge Regression": -0.15774152696450328,
+        "Multiple Linear Regression": -0.22246867705203344,
+        "Ridge Regression": -0.15774152696450316,
         "Random Forest": 0.09135377058127059
       }
     },
@@ -1098,8 +1098,8 @@
       "observed_VB": 0.08,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.09648396889592625,
-        "Ridge Regression": -0.06145746159841947,
+        "Multiple Linear Regression": -0.0964839688959176,
+        "Ridge Regression": -0.061457461598419194,
         "Random Forest": 0.11290870129870124
       }
     },
@@ -1110,8 +1110,8 @@
       "observed_VB": 0.12,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.024843900702453292,
-        "Ridge Regression": 0.047973693879677426,
+        "Multiple Linear Regression": -0.024843900702448962,
+        "Ridge Regression": 0.04797369387967754,
         "Random Forest": 0.23569054676804674
       }
     },
@@ -1122,8 +1122,8 @@
       "observed_VB": 0.17,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.0011330824468960277,
-        "Ridge Regression": 0.06830914806665933,
+        "Multiple Linear Regression": -0.0011330824468985812,
+        "Ridge Regression": 0.06830914806665939,
         "Random Forest": 0.28387661495911487
       }
     },
@@ -1134,8 +1134,8 @@
       "observed_VB": 0.2,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.07040209066286351,
-        "Ridge Regression": 0.15244853863591856,
+        "Multiple Linear Regression": 0.07040209066286285,
+        "Ridge Regression": 0.1524485386359187,
         "Random Forest": 0.3260760221260221
       }
     },
@@ -1146,8 +1146,8 @@
       "observed_VB": 0.24,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.10846369448137971,
-        "Ridge Regression": 0.2030141500151286,
+        "Multiple Linear Regression": 0.10846369448137838,
+        "Ridge Regression": 0.20301415001512885,
         "Random Forest": 0.4189801010101014
       }
     },
@@ -1158,7 +1158,7 @@
       "observed_VB": 0.32,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.31878164684894317,
+        "Multiple Linear Regression": 0.3187816468489405,
         "Ridge Regression": 0.35941788122628476,
         "Random Forest": 0.5271367937617937
       }
@@ -1170,8 +1170,8 @@
       "observed_VB": 0.4,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.400409808383356,
-        "Ridge Regression": 0.4292210211654685,
+        "Multiple Linear Regression": 0.4004098083833528,
+        "Ridge Regression": 0.4292210211654684,
         "Random Forest": 0.5461411779886778
       }
     },
@@ -1182,8 +1182,8 @@
       "observed_VB": 0.45,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.34224279792986284,
-        "Ridge Regression": 0.4100066016172856,
+        "Multiple Linear Regression": 0.34224279792985646,
+        "Ridge Regression": 0.41000660161728536,
         "Random Forest": 0.4738361505161506
       }
     },
@@ -1194,8 +1194,8 @@
       "observed_VB": 0.49,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.43305954747325504,
-        "Ridge Regression": 0.46756695289979017,
+        "Multiple Linear Regression": 0.43305954747324577,
+        "Ridge Regression": 0.4675669528997899,
         "Random Forest": 0.604531202316202
       }
     },
@@ -1206,8 +1206,8 @@
       "observed_VB": 0.58,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.5976873904347229,
-        "Ridge Regression": 0.5823272983248979,
+        "Multiple Linear Regression": 0.5976873904347086,
+        "Ridge Regression": 0.5823272983248976,
         "Random Forest": 0.6794959127909127
       }
     },
@@ -1218,8 +1218,8 @@
       "observed_VB": 0.65,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.6690096970951296,
-        "Ridge Regression": 0.651207022385266,
+        "Multiple Linear Regression": 0.6690096970951198,
+        "Ridge Regression": 0.6512070223852658,
         "Random Forest": 0.7706229053354057
       }
     },
@@ -1230,8 +1230,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.07815100880537806,
-        "Ridge Regression": 0.2024892044064463,
+        "Multiple Linear Regression": 0.07815100880537951,
+        "Ridge Regression": 0.20248920440644605,
         "Random Forest": 0.18709133597883587
       }
     },
@@ -1242,8 +1242,8 @@
       "observed_VB": 0.16,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.1875327219746703,
-        "Ridge Regression": 0.2702372488640511,
+        "Multiple Linear Regression": 0.18753272197467385,
+        "Ridge Regression": 0.27023724886405076,
         "Random Forest": 0.2976445351870354
       }
     },
@@ -1254,8 +1254,8 @@
       "observed_VB": 0.29,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.13227679740770704,
-        "Ridge Regression": 0.23575539127894807,
+        "Multiple Linear Regression": 0.1322767974077116,
+        "Ridge Regression": 0.23575539127894757,
         "Random Forest": 0.32005716385466415
       }
     },
@@ -1266,8 +1266,8 @@
       "observed_VB": 0.44,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.5055354093957665,
-        "Ridge Regression": 0.4986809135459709,
+        "Multiple Linear Regression": 0.5055354093957692,
+        "Ridge Regression": 0.49868091354597055,
         "Random Forest": 0.5946387427387427
       }
     },
@@ -1278,8 +1278,8 @@
       "observed_VB": 0.53,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.6053784370225337,
-        "Ridge Regression": 0.578621068229157,
+        "Multiple Linear Regression": 0.6053784370225367,
+        "Ridge Regression": 0.5786210682291568,
         "Random Forest": 0.6299346157546155
       }
     },
@@ -1290,8 +1290,8 @@
       "observed_VB": 0.74,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.7649700768250476,
-        "Ridge Regression": 0.6655254965715779,
+        "Multiple Linear Regression": 0.7649700768250466,
+        "Ridge Regression": 0.6655254965715776,
         "Random Forest": 0.6313857665482663
       }
     },
@@ -1302,8 +1302,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": -0.1997323173455121,
-        "Ridge Regression": 0.025653143118928412,
+        "Multiple Linear Regression": -0.1997323173455161,
+        "Ridge Regression": 0.025653143118929134,
         "Random Forest": 0.21474765632515627
       }
     },
@@ -1314,8 +1314,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": -0.05052045108943087,
-        "Ridge Regression": 0.05488139675729198,
+        "Multiple Linear Regression": -0.050520451089427654,
+        "Ridge Regression": 0.05488139675729181,
         "Random Forest": 0.017946213323713316
       }
     },
@@ -1326,8 +1326,8 @@
       "observed_VB": 0.09,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.05887674402095805,
-        "Ridge Regression": 0.12159408421873724,
+        "Multiple Linear Regression": 0.05887674402095472,
+        "Ridge Regression": 0.12159408421873716,
         "Random Forest": 0.11444040404040401
       }
     },
@@ -1338,7 +1338,7 @@
       "observed_VB": 0.13,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.13456781796611123,
+        "Multiple Linear Regression": 0.13456781796610867,
         "Ridge Regression": 0.1684848529169313,
         "Random Forest": 0.12803649711399723
       }
@@ -1350,8 +1350,8 @@
       "observed_VB": 0.22,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.27765502083174476,
-        "Ridge Regression": 0.2766605123947429,
+        "Multiple Linear Regression": 0.2776550208317472,
+        "Ridge Regression": 0.27666051239474326,
         "Random Forest": 0.14299599326599335
       }
     },
@@ -1362,8 +1362,8 @@
       "observed_VB": 0.24,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.30358398630664396,
-        "Ridge Regression": 0.31713911881172374,
+        "Multiple Linear Regression": 0.303583986306644,
+        "Ridge Regression": 0.3171391188117237,
         "Random Forest": 0.16147279461279454
       }
     },
@@ -1374,8 +1374,8 @@
       "observed_VB": 0.34,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.4063091893603702,
-        "Ridge Regression": 0.3860283821563142,
+        "Multiple Linear Regression": 0.4063091893603705,
+        "Ridge Regression": 0.38602838215631413,
         "Random Forest": 0.17674210678210664
       }
     },
@@ -1386,7 +1386,7 @@
       "observed_VB": 0.46,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.4171447849208727,
+        "Multiple Linear Regression": 0.41714478492087104,
         "Ridge Regression": 0.4352924276167198,
         "Random Forest": 0.19895216209716196
       }
@@ -1398,8 +1398,8 @@
       "observed_VB": 0.0,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.018888919371867985,
-        "Ridge Regression": 0.044174484258366176,
+        "Multiple Linear Regression": 0.01888891937185866,
+        "Ridge Regression": 0.0441744842583664,
         "Random Forest": 0.008526058201058201
       }
     },
@@ -1410,8 +1410,8 @@
       "observed_VB": 0.18,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.09965769666763591,
-        "Ridge Regression": 0.13893195748574738,
+        "Multiple Linear Regression": 0.0996576966676277,
+        "Ridge Regression": 0.13893195748574766,
         "Random Forest": 0.11567658165908173
       }
     },
@@ -1422,8 +1422,8 @@
       "observed_VB": 0.3,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": -0.18914521445706634,
-        "Ridge Regression": 0.24612958157351028,
+        "Multiple Linear Regression": -0.18914521445708976,
+        "Ridge Regression": 0.2461295815735104,
         "Random Forest": 0.1789361061161061
       }
     },
@@ -1434,8 +1434,8 @@
       "observed_VB": 0.44,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.2776731776562175,
-        "Ridge Regression": 0.3319179593730147,
+        "Multiple Linear Regression": 0.277673177656211,
+        "Ridge Regression": 0.33191795937301477,
         "Random Forest": 0.26634212491212483
       }
     },
@@ -1446,8 +1446,8 @@
       "observed_VB": 0.62,
       "out_of_fold_predictions": {
         "Mean baseline": 0.34948275862068967,
-        "Multiple Linear Regression": 0.39481039185557965,
-        "Ridge Regression": 0.4393703623110454,
+        "Multiple Linear Regression": 0.39481039185557165,
+        "Ridge Regression": 0.4393703623110455,
         "Random Forest": 0.3484664388389391
       }
     },
@@ -1458,7 +1458,7 @@
       "observed_VB": 0.1,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.07116632030183767,
+        "Multiple Linear Regression": 0.07116632030183567,
         "Ridge Regression": 0.1502861787021526,
         "Random Forest": 0.11364974007474006
       }
@@ -1470,8 +1470,8 @@
       "observed_VB": 0.13,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.11375099399652122,
-        "Ridge Regression": 0.18346481593110608,
+        "Multiple Linear Regression": 0.11375099399652133,
+        "Ridge Regression": 0.18346481593110603,
         "Random Forest": 0.13069822797572794
       }
     },
@@ -1482,8 +1482,8 @@
       "observed_VB": 0.17,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.1873516530253888,
-        "Ridge Regression": 0.2005051908772043,
+        "Multiple Linear Regression": 0.1873516530253877,
+        "Ridge Regression": 0.20050519087720411,
         "Random Forest": 0.15077713730713738
       }
     },
@@ -1494,7 +1494,7 @@
       "observed_VB": 0.32,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.31989712753670374,
+        "Multiple Linear Regression": 0.31989712753670285,
         "Ridge Regression": 0.3021367213006845,
         "Random Forest": 0.23363755272505282
       }
@@ -1506,7 +1506,7 @@
       "observed_VB": 0.38,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.3230956658917351,
+        "Multiple Linear Regression": 0.32309566589173244,
         "Ridge Regression": 0.34257026567960736,
         "Random Forest": 0.2811472474747475
       }
@@ -1518,7 +1518,7 @@
       "observed_VB": 0.49,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.40438800315530077,
+        "Multiple Linear Regression": 0.404388003155298,
         "Ridge Regression": 0.3795866079542335,
         "Random Forest": 0.29899788480038475
       }
@@ -1530,8 +1530,8 @@
       "observed_VB": 0.56,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.4355522785074799,
-        "Ridge Regression": 0.3707381068296723,
+        "Multiple Linear Regression": 0.4355522785074759,
+        "Ridge Regression": 0.3707381068296722,
         "Random Forest": 0.3249177318977318
       }
     },
@@ -1542,8 +1542,8 @@
       "observed_VB": 0.68,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.6153323102269329,
-        "Ridge Regression": 0.48842791384664447,
+        "Multiple Linear Regression": 0.6153323102269289,
+        "Ridge Regression": 0.4884279138466444,
         "Random Forest": 0.43041966089466077
       }
     },
@@ -1554,8 +1554,8 @@
       "observed_VB": 0.83,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.6709233834654058,
-        "Ridge Regression": 0.5754198232998365,
+        "Multiple Linear Regression": 0.670923383465404,
+        "Ridge Regression": 0.5754198232998368,
         "Random Forest": 0.412470036075036
       }
     },
@@ -1566,8 +1566,8 @@
       "observed_VB": 0.92,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.7365975333466632,
-        "Ridge Regression": 0.6108049572576595,
+        "Multiple Linear Regression": 0.7365975333466626,
+        "Ridge Regression": 0.6108049572576597,
         "Random Forest": 0.4338391005291003
       }
     },
@@ -1578,8 +1578,8 @@
       "observed_VB": 1.07,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.7242772007261471,
-        "Ridge Regression": 0.6242563999062026,
+        "Multiple Linear Regression": 0.7242772007261442,
+        "Ridge Regression": 0.6242563999062027,
         "Random Forest": 0.47999380647130635
       }
     },
@@ -1590,7 +1590,7 @@
       "observed_VB": 1.3,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.853205752979224,
+        "Multiple Linear Regression": 0.8532057529792213,
         "Ridge Regression": 0.6591221898574611,
         "Random Forest": 0.5390071956746951
       }
@@ -1602,8 +1602,8 @@
       "observed_VB": 1.53,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3064655172413793,
-        "Multiple Linear Regression": 0.8430569341202051,
-        "Ridge Regression": 0.7135957158268124,
+        "Multiple Linear Regression": 0.8430569341202044,
+        "Ridge Regression": 0.7135957158268127,
         "Random Forest": 0.614306183168683
       }
     },
@@ -1614,8 +1614,8 @@
       "observed_VB": 0.09,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.24174397151083826,
-        "Ridge Regression": 0.23594460273716145,
+        "Multiple Linear Regression": 0.24174397151083626,
+        "Ridge Regression": 0.23594460273716122,
         "Random Forest": 0.16250386918636917
       }
     },
@@ -1626,8 +1626,8 @@
       "observed_VB": 0.17,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.40736600363110265,
-        "Ridge Regression": 0.375196478472454,
+        "Multiple Linear Regression": 0.4073660036311033,
+        "Ridge Regression": 0.37519647847245385,
         "Random Forest": 0.22929411477411468
       }
     },
@@ -1638,8 +1638,8 @@
       "observed_VB": 0.24,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.42260013019446496,
-        "Ridge Regression": 0.4183008085813806,
+        "Multiple Linear Regression": 0.42260013019446363,
+        "Ridge Regression": 0.41830080858138036,
         "Random Forest": 0.23580853035853033
       }
     },
@@ -1650,8 +1650,8 @@
       "observed_VB": 0.35,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.5475294187927582,
-        "Ridge Regression": 0.4932605138513314,
+        "Multiple Linear Regression": 0.5475294187927553,
+        "Ridge Regression": 0.49326051385133113,
         "Random Forest": 0.27749423280423274
       }
     },
@@ -1663,7 +1663,7 @@
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
         "Multiple Linear Regression": 0.9358156579532529,
-        "Ridge Regression": 0.7134054014510272,
+        "Ridge Regression": 0.7134054014510269,
         "Random Forest": 0.3663502402227403
       }
     },
@@ -1674,8 +1674,8 @@
       "observed_VB": 0.81,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.907305856512469,
-        "Ridge Regression": 0.7518375665516398,
+        "Multiple Linear Regression": 0.9073058565124645,
+        "Ridge Regression": 0.7518375665516396,
         "Random Forest": 0.42090479298479305
       }
     },
@@ -1686,8 +1686,8 @@
       "observed_VB": 1.14,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3478448275862069,
-        "Multiple Linear Regression": 0.86231803325245,
-        "Ridge Regression": 0.7541225506526077,
+        "Multiple Linear Regression": 0.8623180332524487,
+        "Ridge Regression": 0.7541225506526076,
         "Random Forest": 0.4797861109261105
       }
     },
@@ -1698,8 +1698,8 @@
       "observed_VB": 0.15,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.3454153526608023,
-        "Ridge Regression": 0.32005743010900045,
+        "Multiple Linear Regression": 0.34541535266080065,
+        "Ridge Regression": 0.32005743010900056,
         "Random Forest": 0.5876832395382395
       }
     },
@@ -1710,8 +1710,8 @@
       "observed_VB": 0.28,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.4660061315275598,
-        "Ridge Regression": 0.4178164965838148,
+        "Multiple Linear Regression": 0.4660061315275613,
+        "Ridge Regression": 0.4178164965838149,
         "Random Forest": 0.4329818554593555
       }
     },
@@ -1722,8 +1722,8 @@
       "observed_VB": 0.37,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.5399855573600044,
-        "Ridge Regression": 0.5057722337184989,
+        "Multiple Linear Regression": 0.5399855573600084,
+        "Ridge Regression": 0.505772233718499,
         "Random Forest": 0.5172140392015389
       }
     },
@@ -1734,8 +1734,8 @@
       "observed_VB": 0.48,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.5599943824464226,
-        "Ridge Regression": 0.5453501371235984,
+        "Multiple Linear Regression": 0.5599943824464135,
+        "Ridge Regression": 0.5453501371235983,
         "Random Forest": 1.0135288063788064
       }
     },
@@ -1746,8 +1746,8 @@
       "observed_VB": 0.56,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.6128740422512395,
-        "Ridge Regression": 0.599142321412498,
+        "Multiple Linear Regression": 0.6128740422512442,
+        "Ridge Regression": 0.5991423214124978,
         "Random Forest": 0.8057483337958335
       }
     },
@@ -1758,8 +1758,8 @@
       "observed_VB": 0.7,
       "out_of_fold_predictions": {
         "Mean baseline": 0.33897435897435896,
-        "Multiple Linear Regression": 0.7406244057764927,
-        "Ridge Regression": 0.7369041758690444,
+        "Multiple Linear Regression": 0.7406244057765016,
+        "Ridge Regression": 0.7369041758690447,
         "Random Forest": 0.8597944264069262
       }
     },
@@ -1770,8 +1770,8 @@
       "observed_VB": 0.24,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.4044560049329303,
-        "Ridge Regression": 0.4485382772297227,
+        "Multiple Linear Regression": 0.40445600493292844,
+        "Ridge Regression": 0.4485382772297226,
         "Random Forest": 0.36850239057239004
       }
     },
@@ -1782,8 +1782,8 @@
       "observed_VB": 0.4,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.5017668148357416,
-        "Ridge Regression": 0.5389922271986526,
+        "Multiple Linear Regression": 0.5017668148357373,
+        "Ridge Regression": 0.5389922271986524,
         "Random Forest": 0.5080529593554594
       }
     },
@@ -1794,8 +1794,8 @@
       "observed_VB": 0.62,
       "out_of_fold_predictions": {
         "Mean baseline": 0.3542608695652174,
-        "Multiple Linear Regression": 0.6822864167182315,
-        "Ridge Regression": 0.5714059140269262,
+        "Multiple Linear Regression": 0.6822864167182299,
+        "Ridge Regression": 0.571405914026926,
         "Random Forest": 0.6068861351611352
       }
     }
